@@ -1,0 +1,11 @@
+TYPO3:
+  Neos:
+    modules:
+      administration:
+        submodules:
+          nezaniel-connector-phpbb-administration-phpbb:
+            label: 'PhpBB Administration'
+            controller: '\Nezaniel\Connector\PhpBB\Module\Administration\PhpBBController'
+            description: 'This module contains administration options for phpBB from within Neos.'
+            icon: 'icon-th-list'
+            resource: 'Nezaniel_Connector_PhpBB_Administration_PhpBB'

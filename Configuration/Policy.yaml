@@ -1,0 +1,19 @@
+#                                                                        #
+# Security policy for the Nezaniel PhpBB Connector package               #
+#                                                                        #
+
+resources:
+  methods:
+    Nezaniel_Connector_PhpBB_Administration_PhpBB: 'method(Nezaniel\Connector\PhpBB\Controller\PhpBBController->(index|install)Action())'
+
+
+acls:
+  Everybody:
+    methods:
+
+  TYPO3.Neos:Editor:
+    methods:
+
+  TYPO3.Neos:Administrator:
+    methods:
+      Nezaniel_Connector_PhpBB_Administration_PhpBB: GRANT
